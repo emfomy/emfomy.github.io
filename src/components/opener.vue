@@ -22,7 +22,7 @@ export default {
   }
 
   .OpenerText::before {
-    content: "More Detail";
+    content: "More";
   }
 
   .OpenerText::after {
