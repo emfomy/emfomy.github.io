@@ -16,6 +16,8 @@
       </b-row>
     </b-container>
 
+    <Modals />
+
     <b-link id="back" v-scroll-to="'#app'" @click="resetToggle">
       <font-awesome-icon class="fa-2x text-primary" icon="chevron-circle-up" />
     </b-link>
@@ -25,6 +27,7 @@
 <script>
 import SideBar from './sidebar.vue';
 import Content from './content.vue';
+import Modals from './modals/_index.vue';
 // import Footer from './footer.vue';
 
 export default {
@@ -32,6 +35,7 @@ export default {
   components: {
     SideBar,
     Content,
+    Modals,
     // Footer,
   },
   data() {

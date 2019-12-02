@@ -142,6 +142,14 @@
                     fa-style="fab">
           Github
         </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    v-b-modal.modal-hwe
+                    fa-icon="info"
+                    fa-style="fas">
+          More Detail
+        </IconButton>
       </ButtonGroup>
     </Card2a>
 
@@ -154,6 +162,34 @@
         A novel entity linking project on cosmetic domain with dataset and baseline.<br />
         This project is an industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">PIXNET</b-link> Corporation.
       </p>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://github.com/emfomy/cosmel"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://emfomy.github.io/cosmel-data"
+                    target="_blank"
+                    fa-icon="file-code"
+                    fa-style="fas">
+          Docs
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    v-b-modal.modal-cosmel
+                    fa-icon="info"
+                    fa-style="fas">
+          More Detail
+        </IconButton>
+      </ButtonGroup>
     </Card2a>
 
     <Card2a id="project-isvd">
@@ -193,6 +229,14 @@
                     fa-icon="github"
                     fa-style="fab">
           Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    v-b-modal.modal-isvd
+                    fa-icon="info"
+                    fa-style="fas">
+          More Detail
         </IconButton>
       </ButtonGroup>
     </Card2a>
@@ -234,6 +278,14 @@
                     fa-icon="github"
                     fa-style="fab">
           Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    v-b-modal.modal-pass
+                    fa-icon="info"
+                    fa-style="fas">
+          More Detail
         </IconButton>
       </ButtonGroup>
     </Card2a>

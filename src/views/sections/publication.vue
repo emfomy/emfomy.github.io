@@ -56,10 +56,10 @@
         <IconButton size="sm"
                     variant="outline-primary"
                     href=""
-                    v-scroll-to="'#project-hwe'"
+                    v-b-modal.modal-hwe
                     fa-icon="info"
                     fa-style="fas">
-          More
+          More Detail
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -105,10 +105,10 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    v-scroll-to="'#project-isvd'"
+                    v-b-modal.modal-isvd
                     fa-icon="info"
                     fa-style="fas">
-          More
+          More Detail
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -162,10 +162,10 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    v-scroll-to="'#project-pass'"
+                    v-b-modal.modal-pass
                     fa-icon="info"
                     fa-style="fas">
-          More
+          More Detail
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -202,7 +202,7 @@
                     v-scroll-to="'#project-isvd'"
                     fa-icon="info"
                     fa-style="fas">
-          More
+          More Detail
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -242,7 +242,7 @@
                       @click.native="scrollProject('#project-hhis');"
                       fa-icon="info"
                       fa-style="fas">
-            More
+            More Detail
           </IconButton>
         </ButtonGroup>
       </Card2b>

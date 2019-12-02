@@ -33,7 +33,7 @@
                       @click.native="scrollPublication('#publication-tjjw-jsam-2016');"
                       fa-icon="info"
                       fa-style="fas">
-            More
+            More Detail
           </IconButton>
         </p>
       </header>
